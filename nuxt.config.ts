@@ -20,10 +20,8 @@ export default defineNuxtConfig({
           href: "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css",
         },
       ],
+      css: ["@/assets/css/style.css"],
     },
   },
   modules: ["@vueuse/nuxt", "@nuxt/content"],
 });
-module.exports = {
-  css: ["./css/bootstrap.css"],
-};
